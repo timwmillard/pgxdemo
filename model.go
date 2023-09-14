@@ -71,7 +71,7 @@ func GetPerson(ctx context.Context, db DB, id ID) (Person, error) {
 }
 
 const getPeopleSQL = `
-	select 
+	select
 		id,
 		first_name,
 		last_name,
